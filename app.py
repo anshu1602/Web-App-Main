@@ -21,7 +21,7 @@ BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 UPLOAD_FOLDER = os.path.join(BASE_DIR, "uploads")
 JMX_FOLDER = os.path.join(BASE_DIR, "jmx_files")
 RESULTS_FOLDER = os.path.join(BASE_DIR, "results")
-STATIC_FOLDER = os.path.join(BASE_DIR, "static")
+#STATIC_FOLDER = os.path.join(BASE_DIR, "static")
 JMETER_PATH = r"C:\apache-jmeter-5.6.3\bin\jmeter.bat"  # Update this if needed
 EMAIL_FILE = "emails.json"  # Define EMAIL_FILE constant
 
@@ -29,7 +29,7 @@ EMAIL_FILE = "emails.json"  # Define EMAIL_FILE constant
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(JMX_FOLDER, exist_ok=True)
 os.makedirs(RESULTS_FOLDER, exist_ok=True)
-os.makedirs(STATIC_FOLDER, exist_ok=True)
+#os.makedirs(STATIC_FOLDER, exist_ok=True)
 
 # Set up Gemini API key
 GEMINI_API_KEY = "AIzaSyARWzo_UYaVxTM6w2h-Sq1uBT_NncX7pGo"
