@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1740813739136,869,Apple,200,OK,Thread Group 1-1,text,true,,191038,226,1,1,https://www.apple.com/,149,0,101
+1740813739136,160,Apple-0,301,Redirect,Thread Group 1-1,text,true,,650,111,1,1,http://apple.com/,149,0,101
+1740813739298,707,Apple-1,200,OK,Thread Group 1-1,text,true,,190388,115,1,1,https://www.apple.com/,667,0,644

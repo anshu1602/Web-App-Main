@@ -1,0 +1,13 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1740813739136,869,Apple,200,OK,Thread Group 1-1,text,true,,191038,226,1,1,https://www.apple.com/,149,0,101
+1740813739136,160,Apple-0,301,Redirect,Thread Group 1-1,text,true,,650,111,1,1,http://apple.com/,149,0,101
+1740813739298,707,Apple-1,200,OK,Thread Group 1-1,text,true,,190388,115,1,1,https://www.apple.com/,667,0,644
+1740823587712,3315,Apple,200,OK,Thread Group 1-1,text,true,,191037,228,1,1,https://www.apple.com/,224,0,133
+1740823587712,233,Apple-0,301,Redirect,Thread Group 1-1,text,true,,650,112,1,1,http://apple.com/,224,0,133
+1740823587949,3078,Apple-1,200,OK,Thread Group 1-1,text,true,,190387,116,1,1,https://www.apple.com/,1998,0,1874
+1740824068930,2565,Apple,200,OK,Thread Group 1-1,text,true,,191037,228,1,1,https://www.apple.com/,219,0,119
+1740824068930,231,Apple-0,301,Redirect,Thread Group 1-1,text,true,,650,112,1,1,http://apple.com/,219,0,119
+1740824069165,2330,Apple-1,200,OK,Thread Group 1-1,text,true,,190387,116,1,1,https://www.apple.com/,1632,0,1562
+1740832415379,3205,Apple,200,OK,Thread Group 1-1,text,true,,191038,228,1,1,https://www.apple.com/,333,0,156
+1740832415379,350,Apple-0,301,Redirect,Thread Group 1-1,text,true,,650,112,1,1,http://apple.com/,333,0,156
+1740832415733,2851,Apple-1,200,OK,Thread Group 1-1,text,true,,190388,116,1,1,https://www.apple.com/,2301,0,2142
