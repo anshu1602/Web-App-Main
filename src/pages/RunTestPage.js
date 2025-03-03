@@ -2,10 +2,10 @@
 import React, { useState } from "react";
 
 const RunTestPage = () => {
-  const [resultFile, setResultFile] = useState(null); // Store result filename
-  const [jtlContent, setJtlContent] = useState(""); // Store .jtl file content
-  const [isLoading, setIsLoading] = useState(false); // Loading state
-  const [history, setHistory] = useState([]); // Store history of generated files
+  const [resultFile, setResultFile] = useState(null);
+  const [jtlContent, setJtlContent] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const [history, setHistory] = useState([]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -38,7 +38,6 @@ const RunTestPage = () => {
           setResultFile(data.result_file);
           setJtlContent(data.jtl_content);
 
-          // Add to history
           const now = new Date().toLocaleString();
           setHistory((prevHistory) => [
             { filename: data.result_file, date: now },
@@ -89,7 +88,7 @@ const RunTestPage = () => {
 
           {/* Main Content with History */}
           <div className="row">
-            {/* History Panel (Left Side) */}
+            {/* History Panel */}
             <div className="col-lg-3 col-md-12 sortable-layout">
               <div className="panel panel-default plain toggle panelMove panelClose panelRefresh">
                 <div className="panel-heading">
@@ -112,7 +111,7 @@ const RunTestPage = () => {
               </div>
             </div>
 
-            {/* Run Test Panel (Right Side) */}
+            {/* Run Test Panel */}
             <div className="col-lg-9 col-md-12 sortable-layout">
               <div className="panel panel-default plain toggle panelMove panelClose panelRefresh">
                 <div className="panel-heading">
@@ -121,21 +120,25 @@ const RunTestPage = () => {
                 <div className="panel-body">
                   <form id="runTestForm" onSubmit={handleSubmit}>
                     <label htmlFor="testFile">Select .jmx Test Plan:</label>
-                    <input
-                      type="file"
-                      id="testFile"
-                      name="testFile"
-                      accept=".jmx"
-                      required
-                      style={{ margin: "10px 0" }}
-                    />
-                    <button
-                      type="submit"
-                      className="analyze-button"
-                      disabled={isLoading}
-                    >
-                      {isLoading ? "Running..." : "Run Test"}
-                    </button>
+                    <div className="file-analyze-section">
+                      <input
+                        type="file"
+                        id="testFile"
+                        name="testFile"
+                        accept=".jmx"
+                        required
+                        className="file-input-custom" // Matches #jtl-file-input styling
+                      />
+                      <div className="button-group">
+                        <button
+                          type="submit"
+                          className="analyze-button"
+                          disabled={isLoading}
+                        >
+                          {isLoading ? "Running..." : "Run Test"}
+                        </button>
+                      </div>
+                    </div>
                   </form>
                   <div id="status" style={{ marginTop: "20px" }}></div>
 

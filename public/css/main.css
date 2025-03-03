@@ -4027,14 +4027,79 @@ body {
 
 /* public/css/main.css */
 
-/* Existing styles... */
+/* Define CSS variables with fallbacks */
 :root {
-  --primary-color: #007bff;
-  --hover-color: #0056b3;
-  --disabled-color: #6c757d;
-  --success-color: #28a745;
+  --primary-color: #007bff; /* Existing */
+  --hover-color: #0056b3;   /* Existing */
+  --disabled-color: #6c757d; /* Existing */
+  --success-color: #28a745; /* Existing */
+  --background-color: #f5f5f5; /* From MainContent.js */
+  --text-color: #333;       /* From MainContent.js */
+  --panel-background: #fff; /* From MainContent.js */
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* From MainContent.js */
+  --border-color: #ddd;     /* From MainContent.js */
 }
 
+/* Body styling */
+body {
+  background-color: var(--background-color);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Analyze Container (optional, if you want to wrap the panel) */
+.analyze-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px;
+  background: var(--panel-background);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+/* Optional: Style for h1 if you want to match MainContent.js */
+.analyze-container h1 {
+  color: #6da8ec;
+  -webkit-text-stroke: 0.2px #b3d1f4;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* File Analyze Section */
+.file-analyze-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px; /* Matches MainContent.js */
+  margin-bottom: 30px; /* Matches MainContent.js */
+}
+
+/* File Input Styling (adapted from #jtl-file-input) */
+.file-input-custom {
+  margin: -25px; /* Matches MainContent.js */
+  margin-left: 2px;
+  padding: 12px;
+  width: 100%;
+  max-width: 728px; /* Matches MainContent.js */
+  border: 2px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s, box-shadow 0.3s; /* Matches MainContent.js */
+}
+
+/* Hover and Focus Effect */
+.file-input-custom:hover,
+.file-input-custom:focus {
+  border-color: var(--primary-color); /* Matches MainContent.js */
+  box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.1); /* Matches MainContent.js */
+  outline: none;
+}
+
+/* Existing Button Group */
 .button-group {
   display: flex;
   gap: 15px;
@@ -4042,6 +4107,7 @@ body {
   margin-left: 3px;
 }
 
+/* Existing Button Styles */
 .analyze-button,
 .download-button,
 .email-button {
@@ -4082,12 +4148,7 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-
-/* public/css/main.css */
-
-/* ... Existing styles ... */
-
-/* Wrapper for scrolling */
+/* Existing JTL Content Wrapper */
 .jtl-content-wrapper {
   max-height: 400px; /* Adjust this value as needed */
   overflow-y: auto; /* Enable vertical scrolling */
@@ -4095,6 +4156,49 @@ body {
   border-radius: 4px;
   padding: 10px;
 }
+
+/* Additional Styles (Preserve Existing if Any) */
+.jtl-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.jtl-table th,
+.jtl-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.jtl-table th {
+  background-color: #e9ecef;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.jtl-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.jtl-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.jtl-content {
+  background: #f5f5f5;
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+/* ... Other existing styles ... */
 
 /* Table styling */
 .jtl-table {

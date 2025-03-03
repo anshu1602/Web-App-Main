@@ -11,3 +11,9 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1740832415379,3205,Apple,200,OK,Thread Group 1-1,text,true,,191038,228,1,1,https://www.apple.com/,333,0,156
 1740832415379,350,Apple-0,301,Redirect,Thread Group 1-1,text,true,,650,112,1,1,http://apple.com/,333,0,156
 1740832415733,2851,Apple-1,200,OK,Thread Group 1-1,text,true,,190388,116,1,1,https://www.apple.com/,2301,0,2142
+1740992125636,2926,Apple,200,OK,Thread Group 1-1,text,true,,191006,228,1,1,https://www.apple.com/,209,0,134
+1740992125636,216,Apple-0,301,Redirect,Thread Group 1-1,text,true,,650,112,1,1,http://apple.com/,209,0,134
+1740992125855,2707,Apple-1,200,OK,Thread Group 1-1,text,true,,190356,116,1,1,https://www.apple.com/,2131,0,1982
+1740992401786,2701,Apple,200,OK,Thread Group 1-1,text,true,,191007,228,1,1,https://www.apple.com/,252,0,171
+1740992401786,261,Apple-0,301,Redirect,Thread Group 1-1,text,true,,650,112,1,1,http://apple.com/,252,0,171
+1740992402051,2436,Apple-1,200,OK,Thread Group 1-1,text,true,,190357,116,1,1,https://www.apple.com/,1800,0,1619

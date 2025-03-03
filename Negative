@@ -134,3 +134,57 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1740898850612,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
 1740898850614,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
 1740898850616,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1740927048632,164,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: No such host is known (abcdsgsdgsdg.com),Negative 1-1,text,false,,2523,0,1,1,http://abcdsgsdgsdg.com/,0,0,164
+1740927048801,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-1,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1740927048803,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-1,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1740927049337,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-2,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1740927049340,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-2,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1740927049341,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-2,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1740927050334,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1740927050336,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1740927050337,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1740990916008,135,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: No such host is known (abcdsgsdgsdg.com),Negative 1-1,text,false,,2523,0,1,1,http://abcdsgsdgsdg.com/,0,0,135
+1740990916155,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-1,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1740990916158,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-1,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1740990916814,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-2,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1740990916817,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-2,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1740990916818,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-2,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1740990917802,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1740990917805,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1740990917807,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1740992047258,132,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: No such host is known (abcdsgsdgsdg.com),Negative 1-1,text,false,,2523,0,1,1,http://abcdsgsdgsdg.com/,0,0,131
+1740992047396,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-1,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1740992047398,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-1,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1740992048073,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-2,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1740992048075,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-2,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1740992048076,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-2,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1740992049073,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1740992049075,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1740992049077,3,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,3
+1740992419178,63,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: No such host is known (abcdsgsdgsdg.com),Negative 1-1,text,false,,2523,0,1,1,http://abcdsgsdgsdg.com/,0,0,63
+1740992419248,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-1,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1740992419250,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-1,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1740992420022,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-2,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1740992420023,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-2,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1740992420024,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-2,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1740992421021,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1740992421022,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1740992421023,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1741001846174,237,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: No such host is known (abcdsgsdgsdg.com),Negative 1-1,text,false,,2523,0,1,1,http://abcdsgsdgsdg.com/,0,0,236
+1741001846417,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-1,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1741001846419,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-1,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1741001846994,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-2,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1741001846996,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-2,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1741001846997,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-2,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1741001847991,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1741001847992,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1741001847993,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1741012277686,195,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: No such host is known (abcdsgsdgsdg.com),Negative 1-1,text,false,,2523,0,1,1,http://abcdsgsdgsdg.com/,0,0,194
+1741012277887,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-1,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1741012277889,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-1,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1741012278484,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-2,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1741012278486,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-2,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1741012278490,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-2,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1741012279489,1,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,1
+1741012279491,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
+1741012279492,0,Negative,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: abcdsgsdgsdg.com,Negative 1-3,text,false,,2237,0,1,1,http://abcdsgsdgsdg.com/,0,0,0
