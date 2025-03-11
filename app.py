@@ -22,9 +22,14 @@ UPLOAD_FOLDER = os.path.join(BASE_DIR, "uploads")
 JMX_FOLDER = os.path.join(BASE_DIR, "jmx_files")
 RESULTS_FOLDER = os.path.join(BASE_DIR, "results")
 #STATIC_FOLDER = os.path.join(BASE_DIR, "static")
+<<<<<<< HEAD
 JMETER_PATH = r"C:\apache-jmeter-5.6.3\bin\jmeter.bat"  # Update this if needed
 #JMETER_PATH = os.path.join(BASE_DIR, "apache-jmeter-5.6.3", "bin", "jmeter")
 #JMETER_PATH = os.getenv("JMETER_PATH", os.path.join(BASE_DIR, "apache-jmeter-5.6.3", "bin", "jmeter"))
+=======
+#JMETER_PATH = r"C:\apache-jmeter-5.6.3\bin\jmeter.bat"  # Update this if needed
+JMETER_PATH = os.path.join(BASE_DIR, "apache-jmeter-5.6.3", "bin", "jmeter")
+>>>>>>> f0c55a5f7952cf8c0a91c4b96450ee19d899dff8
 EMAIL_FILE = "emails.json"  # Define EMAIL_FILE constant
 
 # Ensure necessary folders exist
@@ -241,6 +246,7 @@ def send_email_api():
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
+<<<<<<< HEAD
 
 
 
@@ -261,3 +267,5 @@ if __name__ == "__main__":
 
 
 
+=======
+>>>>>>> f0c55a5f7952cf8c0a91c4b96450ee19d899dff8
