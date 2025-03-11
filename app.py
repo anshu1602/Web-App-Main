@@ -24,6 +24,7 @@ RESULTS_FOLDER = os.path.join(BASE_DIR, "results")
 #STATIC_FOLDER = os.path.join(BASE_DIR, "static")
 JMETER_PATH = r"C:\apache-jmeter-5.6.3\bin\jmeter.bat"  # Update this if needed
 #JMETER_PATH = os.path.join(BASE_DIR, "apache-jmeter-5.6.3", "bin", "jmeter")
+#JMETER_PATH = os.getenv("JMETER_PATH", os.path.join(BASE_DIR, "apache-jmeter-5.6.3", "bin", "jmeter"))
 EMAIL_FILE = "emails.json"  # Define EMAIL_FILE constant
 
 # Ensure necessary folders exist
@@ -240,3 +241,23 @@ def send_email_api():
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

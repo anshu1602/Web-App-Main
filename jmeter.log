@@ -1,62 +1,62 @@
-2025-03-03 20:01:15,470 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2025-03-03 20:01:15,566 INFO o.a.j.JMeter: Loading user properties from: C:\apache-jmeter-5.6.3\bin\user.properties
-2025-03-03 20:01:15,574 INFO o.a.j.JMeter: Loading system properties from: C:\apache-jmeter-5.6.3\bin\system.properties
-2025-03-03 20:01:15,626 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
-2025-03-03 20:01:15,627 INFO o.a.j.JMeter: Version 5.6.3
-2025-03-03 20:01:15,627 INFO o.a.j.JMeter: java.version=17.0.14
-2025-03-03 20:01:15,627 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2025-03-03 20:01:15,627 INFO o.a.j.JMeter: os.name=Windows 11
-2025-03-03 20:01:15,628 INFO o.a.j.JMeter: os.arch=amd64
-2025-03-03 20:01:15,628 INFO o.a.j.JMeter: os.version=10.0
-2025-03-03 20:01:15,628 INFO o.a.j.JMeter: file.encoding=Cp1252
-2025-03-03 20:01:15,628 INFO o.a.j.JMeter: java.awt.headless=true
-2025-03-03 20:01:15,628 INFO o.a.j.JMeter: Max memory     =1073741824
-2025-03-03 20:01:15,628 INFO o.a.j.JMeter: Available Processors =4
-2025-03-03 20:01:15,696 INFO o.a.j.JMeter: Default Locale=English (EN)
-2025-03-03 20:01:15,697 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2025-03-03 20:01:15,697 INFO o.a.j.JMeter: JMeterHome=C:\apache-jmeter-5.6.3
-2025-03-03 20:01:15,697 INFO o.a.j.JMeter: user.dir  =C:\Users\anshu\OneDrive\Desktop\J.AI\Web-App-Main
-2025-03-03 20:01:15,698 INFO o.a.j.JMeter: PWD       =C:\Users\anshu\OneDrive\Desktop\J.AI\Web-App-Main
-2025-03-03 20:01:15,714 INFO o.a.j.JMeter: IP: 192.168.59.237 Name: Anshu FullName: Anshu
-2025-03-03 20:01:15,827 INFO o.a.j.s.FileServer: Default base='C:\Users\anshu\OneDrive\Desktop\J.AI\Web-App-Main'
-2025-03-03 20:01:15,836 INFO o.a.j.s.FileServer: Set new base='C:\Users\anshu\OneDrive\Desktop\J.AI\Web-App-Main\jmx_files'
-2025-03-03 20:01:16,866 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2025-03-03 20:01:16,963 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2025-03-03 20:01:16,969 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2025-03-03 20:01:16,978 INFO o.a.j.s.SaveService: Loading file: C:\Users\anshu\OneDrive\Desktop\J.AI\Web-App-Main\jmx_files\incorrect.jmx
-2025-03-03 20:01:17,135 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-03-03 20:01:17,135 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-03-03 20:01:17,135 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-03-03 20:01:17,135 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-03-03 20:01:17,135 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2025-03-03 20:01:17,136 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2025-03-03 20:01:17,191 INFO o.a.j.JMeter: Creating summariser <summary>
-2025-03-03 20:01:17,219 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2025-03-03 20:01:17,220 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2025-03-03 20:01:17,220 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2025-03-03 20:01:17,233 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2025-03-03 20:01:17,233 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2025-03-03 20:01:17,424 INFO o.a.j.JMeter: Running test (1741012277423)
-2025-03-03 20:01:17,461 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Negative
-2025-03-03 20:01:17,461 INFO o.a.j.e.StandardJMeterEngine: Starting 3 threads for group Negative.
-2025-03-03 20:01:17,461 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2025-03-03 20:01:17,462 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=3 ramp-up=3 delayedStart=false
-2025-03-03 20:01:17,472 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2025-03-03 20:01:17,472 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2025-03-03 20:01:17,476 INFO o.a.j.t.JMeterThread: Thread started: Negative 1-1
-2025-03-03 20:01:17,516 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Anshu
-2025-03-03 20:01:17,532 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2025-03-03 20:01:17,535 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2025-03-03 20:01:17,535 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
-2025-03-03 20:01:17,535 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2025-03-03 20:01:17,535 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2025-03-03 20:01:17,889 INFO o.a.j.t.JMeterThread: Thread is done: Negative 1-1
-2025-03-03 20:01:17,890 INFO o.a.j.t.JMeterThread: Thread finished: Negative 1-1
-2025-03-03 20:01:18,477 INFO o.a.j.t.JMeterThread: Thread started: Negative 1-2
-2025-03-03 20:01:18,492 INFO o.a.j.t.JMeterThread: Thread is done: Negative 1-2
-2025-03-03 20:01:18,492 INFO o.a.j.t.JMeterThread: Thread finished: Negative 1-2
-2025-03-03 20:01:19,484 INFO o.a.j.t.JMeterThread: Thread started: Negative 1-3
-2025-03-03 20:01:19,494 INFO o.a.j.t.JMeterThread: Thread is done: Negative 1-3
-2025-03-03 20:01:19,494 INFO o.a.j.t.JMeterThread: Thread finished: Negative 1-3
-2025-03-03 20:01:19,494 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2025-03-03 20:01:19,500 INFO o.a.j.r.Summariser: summary =      9 in 00:00:02 =    4.3/s Avg:    22 Min:     0 Max:   195 Err:     9 (100.00%)
+2025-03-03 20:18:35,856 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-03-03 20:18:35,911 INFO o.a.j.JMeter: Loading user properties from: C:\apache-jmeter-5.6.3\bin\user.properties
+2025-03-03 20:18:35,912 INFO o.a.j.JMeter: Loading system properties from: C:\apache-jmeter-5.6.3\bin\system.properties
+2025-03-03 20:18:35,925 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-03-03 20:18:35,925 INFO o.a.j.JMeter: Version 5.6.3
+2025-03-03 20:18:35,925 INFO o.a.j.JMeter: java.version=17.0.14
+2025-03-03 20:18:35,927 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-03-03 20:18:35,927 INFO o.a.j.JMeter: os.name=Windows 11
+2025-03-03 20:18:35,927 INFO o.a.j.JMeter: os.arch=amd64
+2025-03-03 20:18:35,927 INFO o.a.j.JMeter: os.version=10.0
+2025-03-03 20:18:35,927 INFO o.a.j.JMeter: file.encoding=Cp1252
+2025-03-03 20:18:35,927 INFO o.a.j.JMeter: java.awt.headless=true
+2025-03-03 20:18:35,928 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-03-03 20:18:35,928 INFO o.a.j.JMeter: Available Processors =4
+2025-03-03 20:18:35,941 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-03-03 20:18:35,941 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-03-03 20:18:35,942 INFO o.a.j.JMeter: JMeterHome=C:\apache-jmeter-5.6.3
+2025-03-03 20:18:35,942 INFO o.a.j.JMeter: user.dir  =C:\Users\anshu\OneDrive\Desktop\J.AI\Web-App-Main
+2025-03-03 20:18:35,944 INFO o.a.j.JMeter: PWD       =C:\Users\anshu\OneDrive\Desktop\J.AI\Web-App-Main
+2025-03-03 20:18:35,947 INFO o.a.j.JMeter: IP: 192.168.59.237 Name: Anshu FullName: Anshu
+2025-03-03 20:18:35,982 INFO o.a.j.s.FileServer: Default base='C:\Users\anshu\OneDrive\Desktop\J.AI\Web-App-Main'
+2025-03-03 20:18:35,987 INFO o.a.j.s.FileServer: Set new base='C:\Users\anshu\OneDrive\Desktop\J.AI\Web-App-Main\jmx_files'
+2025-03-03 20:18:36,383 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-03-03 20:18:36,431 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-03-03 20:18:36,436 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-03-03 20:18:36,442 INFO o.a.j.s.SaveService: Loading file: C:\Users\anshu\OneDrive\Desktop\J.AI\Web-App-Main\jmx_files\Apple_test.jmx
+2025-03-03 20:18:36,534 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-03-03 20:18:36,534 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-03-03 20:18:36,534 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-03-03 20:18:36,534 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-03-03 20:18:36,534 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-03-03 20:18:36,535 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-03-03 20:18:36,571 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-03-03 20:18:36,590 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-03-03 20:18:36,591 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-03-03 20:18:36,591 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-03-03 20:18:36,598 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-03-03 20:18:36,599 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-03-03 20:18:36,719 INFO o.a.j.JMeter: Running test (1741013316719)
+2025-03-03 20:18:36,744 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2025-03-03 20:18:36,744 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2025-03-03 20:18:36,744 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-03-03 20:18:36,744 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2025-03-03 20:18:36,750 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-03-03 20:18:36,751 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-03-03 20:18:36,755 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2025-03-03 20:18:36,783 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Anshu
+2025-03-03 20:18:36,800 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-03-03 20:18:36,802 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-03-03 20:18:36,802 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-03-03 20:18:36,802 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-03-03 20:18:36,802 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-03-03 20:18:37,318 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2025-03-03 20:18:37,328 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2025-03-03 20:18:37,328 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2025-03-03 20:18:37,526 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2025-03-03 20:18:37,533 INFO o.a.j.u.SSLManager: KeyStore created OK
+2025-03-03 20:18:37,533 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2025-03-03 20:18:40,335 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2025-03-03 20:18:40,335 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2025-03-03 20:18:40,338 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-03-03 20:18:40,340 INFO o.a.j.r.Summariser: summary =      1 in 00:00:04 =    0.3/s Avg:  3383 Min:  3383 Max:  3383 Err:     0 (0.00%)
