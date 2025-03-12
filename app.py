@@ -653,14 +653,27 @@ JMX_FOLDER = os.path.join(BASE_DIR, "jmx_files")
 RESULTS_FOLDER = os.path.join(BASE_DIR, "results")
 EMAIL_FILE = "emails.json"
 
-# Set JMeter path for Docker (Linux) environment
-JMETER_PATH = "/opt/apache-jmeter-5.6.3/bin/jmeter"  # Updated path
-# JMETER_PATH = "jmeter"  # Relies on PATH
-# print(f"JMETER_PATH resolved to: {shutil.which(JMETER_PATH)}")
+# # Set JMeter path for Docker (Linux) environment
+# JMETER_PATH = "/opt/apache-jmeter-5.6.3/bin/jmeter"  # Updated path
+# # Debug JMeter path
+# print(f"JMETER_PATH: {JMETER_PATH}")
+# print(f"JMeter exists: {os.path.exists(JMETER_PATH)}")
 
-# Debug JMeter path
+JMETER_PATH = "/opt/apache-jmeter-5.6.3/bin/jmeter"
+
+# Check if JMeter exists
+jmeter_exists = os.path.exists(JMETER_PATH)
+
+# Log the details
 print(f"JMETER_PATH: {JMETER_PATH}")
-print(f"JMeter exists: {os.path.exists(JMETER_PATH)}")
+print(f"JMeter exists: {jmeter_exists}")
+
+if jmeter_exists:
+    print("JMeter is correctly installed!")
+else:
+    print("JMeter is missing! Check installation.")
+
+
 
 # Ensure necessary folders exist
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
